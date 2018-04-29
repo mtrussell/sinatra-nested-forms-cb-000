@@ -6,18 +6,17 @@ module FormsLab
     # code other routes/actions here
 
     get '/' do
-      "Welcome to the Nested Forms Lab!"
-      "let's navigate to the '/new'"
+      erb :root
     end
 
-    get '/pirates/new' do
+    get '/new' do
       erb :new
     end
 
-    post '/pirates/pirates' do
-
-
-      erb :pirates
+    post '/pirates' do
+      
+      
+      erb :show
     end
 
   end
