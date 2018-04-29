@@ -15,6 +15,6 @@ class Pirate
   end
 
   def self.clear
-    PIRATES = []
+    PIRATES.clear
   end
 end
