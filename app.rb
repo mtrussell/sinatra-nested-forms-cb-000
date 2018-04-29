@@ -15,8 +15,8 @@ module FormsLab
     end
 
     post '/pirates/pirates' do
-      
-      
+
+
       erb :pirates
     end
 
