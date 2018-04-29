@@ -21,7 +21,7 @@ module FormsLab
          ship = Ship.new(details)
          @ships << ship
       end
-      
+
       erb :'pirates/show'
     end
 
